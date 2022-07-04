@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+        margin-top: 20px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    width: 50%;
+}
+.nav-list a{
+    text-decoration: none;
+}
+
+.nav-list a:focus{
+    text-decoration: none;
+    background-color: red;
+    color: blue;
+    width: 100px;
+    height: 10px;
+}
+
+.header h2{ 
+    width: 400px;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+
+}
+.header-img{
+    width: 100%;
+}
+
+.header p{
+    width: 400px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+
+    color: #7D7987;
+}
+
+.header-btn{ 
+    background: #458FF6;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 20px ;
+    border-radius: 20px;
+}
+
+.head{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2{
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.header-btn:focus{
+    width: 100px;
+    height: 10px;
+}
+.row{
+    margin: 20px 10px;
+    width: 27%;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    padding: 12px 20px;
+}
+.section-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row p{
+    color: rgba(125, 121, 135, 1);
+}
+
+.head p{
+    color: rgba(125, 121, 135, 1);
+    font-size: 20px;
+}
+.headerbtn{
+    color: cyan;
+    background: white;
+    border: 1px solid cyan;
+    padding: 8px 16px;
+    margin-top: 20px ;
+    border-radius: 20px;
+}
+
+.container_btn{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container_btn h2{
+    font-size: 50px;
+    color: black;
+}
+
+.header_btn{
+    color: cyan;
+    background: white;
+    border: 1px solid cyan;
+    padding: 8px 16px;
+    margin-top: 20px ;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.js{
+    align-items: center;
+    justify-content: center;
+}
+.il{
+    margin-left: 450px ;
+}
+
+.HZ {
+    margin: 20px 10px;
+    width: 27%;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.HZ img{
+    border: none;
+    border-radius: 30px;
+    width: 325px;
+}
+
+.bodyy{
+    color: cyan;
+    background: white;
+    border: 1px solid cyan;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 1000px;
+}
+
